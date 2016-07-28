@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<link lang="en">
 <head>
     <meta charset="UTF-8">
     <title>greet hello</title>
-    <script type="text/javascript" src="js/helloworld.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <!-- endbuild -->
+    <!--build:js js/main.min.js -->
+        <script type="text/javascript" src="js/helloworld.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    <!-- endbuild -->
 </head>
 <body onload="greet()">
     <h1 id="name">loading....</h1>
