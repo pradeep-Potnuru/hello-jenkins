@@ -1,2 +1,2 @@
 # hello-jenkins
-testing application with jenkins, gulp and jasmine
+testing application with jenkins, gulp and jasmine.
