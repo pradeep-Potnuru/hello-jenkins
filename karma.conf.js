@@ -13,7 +13,7 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
 
     // plugins to use
-    plugins : ['karma-jasmine', 'karma-phantomjs-launcher'],
+    plugins : ['karma-jasmine', 'karma-phantomjs-launcher', 'karma-junit-reporter'],
 
 
     // list of files / patterns to load in the browser
