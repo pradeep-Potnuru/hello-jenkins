@@ -27,7 +27,7 @@ gulp.task('sass', function() {
 
 gulp.task('clean:dist',function () {
     return del.sync('dist');
-})
+});
 
 
 // synchronizing the tasks as each task depend on other. - build tasks
